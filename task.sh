@@ -1,12 +1,11 @@
 #!/bin/bash
-echo "start"
 # создаём каталог task с вложенными директориями
 # task
 #   dir1
 #   dir2
 #   dir3
 #       dir4
-mkdir -pv task/dir1 task/dir2 task/dir3/dir4
+mkdir -p task/dir1 task/dir2 task/dir3/dir4
 # изменяем текущую директорию на task
 cd task
 # создаём пустой файл task/dir2/empty
